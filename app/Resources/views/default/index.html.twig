@@ -39,7 +39,20 @@
                     <a href="http://symfony.com/doc/{{ constant('Symfony\\Component\\HttpKernel\\Kernel::VERSION')[:3] }}/page_creation.html">
                         How to create your first page in Symfony
                     </a>
+
+
                 </p>
+                <form id="execute_javascript_form">
+                    <button id="execute_javascript">Execute JavaScript</button>
+                </form>
+
+                <script>
+                    $('#execute_javascript').click(function (event) {
+                        event.preventDefault();
+                        $('#execute_javascript_form').append('<p>JavaScript executed</p>');
+                    })
+                </script>
+
             </div>
 
         </div>
