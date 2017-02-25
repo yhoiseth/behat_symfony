@@ -1,0 +1,9 @@
+build:
+    project_setup:
+        before:
+            -
+                command: app/console server:run
+                background: true
+    environment:
+        php:
+            version: 7.1
