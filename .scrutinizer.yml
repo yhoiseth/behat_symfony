@@ -7,3 +7,4 @@ build:
     environment:
         php:
             version: 7.1
+        selenium: true
