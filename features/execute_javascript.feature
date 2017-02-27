@@ -1,3 +1,4 @@
+@javascript
 Feature: Execute JavaScript
   In order to functionally test JavaScript
   As a developer
